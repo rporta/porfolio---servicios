@@ -1,0 +1,106 @@
+.animation-3d{ 
+	display:none;
+}
+.lupa{
+	width:100%;
+	position: absolute;
+	width: 100%;
+	background-color: #000;
+	display:none;
+	cursor:pointer;
+	z-index:-1;
+}
+.load{
+	text-align:center;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color:rgba(0, 0, 0, 0.86);
+	z-index: +3;
+}
+.load:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.center{
+	display: inline-block;
+	vertical-align: middle;
+}
+.f_alert{
+	text-align:center;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color:rgba(0, 0, 0, 0.86);
+	z-index: +3;
+}
+.f_alert:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.m_alert{
+padding:30px; 
+background-color:#FFF;
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+display: inline-block;
+vertical-align: middle;
+}
+.m_alert h3{
+	margin:0px;
+}
+.animacion-nav{
+    display: none;
+    background-color: #FFF;
+    position: absolute;
+    width: 100%;
+    bottom: 7px;
+    height: 4px;
+}
+.divcenter{
+	text-align:center;
+	position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+}
+#gal_2{ 
+	display:none;
+}
+.ser-div{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	padding:15px;
+	background-image:url(../img/servicios/fondo.jpg);
+	background-color:#06F;
+	color:#FFF;
+}
+.transition{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.rotate_d{
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.rotate_360{
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.scale_1{
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
